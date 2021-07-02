@@ -12,6 +12,6 @@
       "outDir": "./lib" ,
       "experimentalDecorators": true
     },
-    "exclude": ["dist", "node_modules"],
+    "exclude": ["lib", "node_modules"],
     "include": ["src/**/*"]
 }
