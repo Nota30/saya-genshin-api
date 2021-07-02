@@ -72,7 +72,7 @@ router.get('/', async (req, res: any) => {
                 res.json(db);
                 await res.locals.setex(`${uid}`, 1800, JSON.stringify(db));
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            } catch (err: any) {
+            } catch (err) {
                 res.json({
                     message: 'An error occured'
                 });
