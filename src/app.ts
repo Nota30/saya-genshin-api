@@ -8,6 +8,7 @@ import redis from 'redis';
 //Routes
 import indexRouter from './routes/index';
 import userRouter from './routes/user';
+import characterRouter from './routes/character';
 
 const app = express();
 const client = redis.createClient(6379);
@@ -32,6 +33,7 @@ app.use(function (req: Request, res, next) {
 
 app.use('/', indexRouter);
 app.use('/user', userRouter);
+app.use('/character', characterRouter);
 
 app.use(function (req, res, next) {
     next(createError(404));
