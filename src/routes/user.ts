@@ -13,7 +13,7 @@ router.get('/', async (req, res: any) => {
     const uid = req.query.id;
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    await res.locals.get(`${uid}`, async (err: any, data: any) => {
+    await res.locals.get(`${uid}:test`, async (err: any, data: any) => {
         if (err) throw err;
         if (data) {
             const cachedb = JSON.parse(data);
@@ -70,7 +70,7 @@ router.get('/', async (req, res: any) => {
                     explorations: explorations
                 };
                 res.json(db);
-                await res.locals.setex(`${uid}`, 1800, JSON.stringify(db));
+                await res.locals.setex(`${uid}:test`, 1800, JSON.stringify(db));
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
             } catch (err) {
                 res.json({
