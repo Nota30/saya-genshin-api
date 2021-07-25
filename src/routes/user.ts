@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { GenshinKit, util } from 'genshin-kit';
 import { char_en } from '../utils/character_en';
 import { region_en } from '../utils/region_en';
-import emotes from '../../assets/emotes.json';
+import emotes from '../utils/emotes.json';
 
 const router = Router();
 const App = new GenshinKit();
