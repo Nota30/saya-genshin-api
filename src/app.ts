@@ -11,7 +11,11 @@ import userRouter from './routes/user';
 import characterRouter from './routes/character';
 
 const app = express();
-const client = redis.createClient(6379);
+const client = redis.createClient({
+    host: '209.145.53.39',
+    port: 6379,
+    password: process.env.REDIS_PASS
+});
 
 client.on('error', (err) => {
     console.log(err);
