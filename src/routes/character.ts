@@ -7,8 +7,7 @@ const router = Router();
 router.get('/', async (req, res: any) => {
     try {
         const character = req.query.character;
-        //const file = readFileSync(`/root/saya-genshin/assets/characters/${character}.json`, 'utf8');
-        const file = readFileSync(`C:/Users/haren/Desktop/saya-genshin/assets/characters/${character}.json`, 'utf8');
+        const file = readFileSync(`/root/saya-genshin/assets/characters/${character}.json`, 'utf8');
         const data = JSON.parse(file);
         data.message = 'success';
         res.json(data);
