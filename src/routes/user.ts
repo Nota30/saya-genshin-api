@@ -72,7 +72,8 @@ router.get('/', async (req, res: any) => {
                         spiral_abyss: player.stats.spiral_abyss
                     },
                     characters: characters,
-                    explorations: explorations
+                    explorations: explorations,
+                    message: 'success'
                 };
                 res.json(db);
                 await res.locals.setex(`${uid}:test`, 1800, JSON.stringify(db));
