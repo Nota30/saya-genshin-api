@@ -13,6 +13,7 @@ import http from 'http';
 const debug = Debug('myapp:server');
 const port = normalizePort(process.env.PORT || '80');
 app.set('port', port);
+console.log(`Listening on port ${port}`);
 
 /**
  * Create HTTP server.

@@ -4,6 +4,9 @@
   "description": "Saya genshin api for game modules!",
   "main": "lib/index.js",
   "scripts": {
+    "clean": "rimraf lib/",
+    "copy-files": "copyfiles -u 1 src/**/*.pug src/**/*.css lib/",
+    "build": "yarn clean && tsc && yarn copy-files",
     "start": "node ./lib/bin/index",
     "lint": "eslint . --ext .ts --fix"
   },

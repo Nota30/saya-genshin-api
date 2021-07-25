@@ -21,7 +21,7 @@ client.on('error', (err) => {
     console.log(err);
 });
 
-app.set('views', '/root/saya-genshin/assets/views');
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.set('json spaces', 2);
 
@@ -29,7 +29,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join('/root/saya-genshin/assets/', 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(function (req: Request, res, next) {
     res.locals = client;
