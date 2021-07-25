@@ -142,13 +142,13 @@
     "vision_key": "GEO",
     "weapon_type": "CATALYST",
     "images": {
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png",
-        "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
-        "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
-        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
-        "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Albedo.png",
-        "cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611204969580.png",
-        "cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611271023422.png",
-        "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94dd9e0cc9d8311e58887a45b9b14861.png"
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+		"card": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg/",
+		"portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Character_Ningguang_Portrait.png",
+		"icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+		"sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ningguang.png",
+		"cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20200305/2020030519413867244.png",
+		"cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20200305/2020030519431658285.png",
+		"hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/c44caa291b735e6d679ae9f4eb11426e.png"
     }
 }

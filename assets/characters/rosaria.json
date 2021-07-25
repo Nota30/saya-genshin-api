@@ -158,13 +158,11 @@
     "vision_key": "CRYO",
     "weapon_type": "POLEARM",
     "images": {
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png",
-        "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
-        "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
-        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
-        "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Albedo.png",
-        "cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611204969580.png",
-        "cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611271023422.png",
-        "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94dd9e0cc9d8311e58887a45b9b14861.png"
+        "card": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Character_Rosaria_Card.png/revision/latest/scale-to-width-down/281?cb=20210330063015",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+		"sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Rosaria.png",
+		"cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20210325/2021032515083899881.png",
+		"cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20210325/2021032515090348894.png",
+		"hoyolab-avatar": ""
     }
 }

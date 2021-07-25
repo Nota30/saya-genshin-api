@@ -170,13 +170,13 @@
     "vision_key": "ANEMO",
     "weapon_type": "SWORD",
     "images": {
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png",
-        "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
-        "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
-        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
-        "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Albedo.png",
-        "cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611204969580.png",
-        "cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611271023422.png",
-        "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94dd9e0cc9d8311e58887a45b9b14861.png"
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Character_Jean_Thumb.png",
+		"card": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Jean_Card.jpg",
+		"portrait": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Jean_Portrait.png",
+		"icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
+		"sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Qin.png",
+		"cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20200616/2020061611214389168.png",
+		"cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20200616/2020061611215344626.png",
+		"hoyolab-avatar": "https://img-os-static.hoyolab.com/avatar/avatar40007.png"
     }
 }

@@ -177,13 +177,13 @@
     "vision_key": "HYDRO",
     "weapon_type": "CATALYST",
     "images": {
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png",
-        "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
-        "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
-        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
-        "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Albedo.png",
-        "cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611204969580.png",
-        "cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611271023422.png",
-        "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94dd9e0cc9d8311e58887a45b9b14861.png"
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Mona_Thumb.png",
+		"card": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg",
+		"portrait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Character_Mona_Portrait.png",
+		"icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png",
+		"sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Mona.png",
+		"cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20200828/2020082817270842074.png",
+		"cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20200828/2020082817353421694.png",
+		"hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/1fa7a20fb3b391132e1132ab2a44e146.png"
     }
 }

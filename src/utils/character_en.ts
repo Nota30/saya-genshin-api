@@ -33,7 +33,8 @@ export const char_en = (toTranslate: string): Promise<string> => {
         烟绯: 'Yanfei',
         达达利亚: 'Tartaglia',
         旅行者: 'Traveler',
-        枫原万叶: 'Kaedehara Kazuha'
+        枫原万叶: 'Kaedehara Kazuha',
+        神里绫华: 'Kamisato Ayaka'
     };
 
     const translated = characters[toTranslate];

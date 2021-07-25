@@ -174,13 +174,13 @@
     "vision_key": "PYRO",
     "weapon_type": "SWORD",
     "images": {
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png",
-        "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
-        "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
-        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
-        "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Albedo.png",
-        "cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611204969580.png",
-        "cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121611271023422.png",
-        "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94dd9e0cc9d8311e58887a45b9b14861.png"
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png",
+		"card": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Character_Bennett_Card.jpg",
+		"portrait": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png",
+		"icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+		"sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Bennett.png",
+		"cover1": "https://uploadstatic-sea.mihoyo.com/contentweb/20200312/2020031220001589124.png",
+		"cover2": "https://uploadstatic-sea.mihoyo.com/contentweb/20200312/2020031220015487912.png",
+		"hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/661fca5d5165dee41fd29c142a59c2f9.png"
     }
 }

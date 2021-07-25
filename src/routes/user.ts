@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { GenshinKit, util } from 'genshin-kit';
 import { char_en } from '../utils/character_en';
 import { region_en } from '../utils/region_en';
+import emotes from '../../assets/emotes.json';
 
 const router = Router();
 const App = new GenshinKit();
@@ -23,7 +24,8 @@ router.get('/', async (req, res: any) => {
                 const validId = util.isValidOsUid(Number(uid));
                 if (validId == false) {
                     return res.json({
-                        message: 'Invalid uid'
+                        message: 'error',
+                        error: 'Invalid uid was provided'
                     });
                 }
                 const player = await App.getUserInfo(Number(uid));
@@ -36,8 +38,11 @@ router.get('/', async (req, res: any) => {
                         element: char.element,
                         level: char.level,
                         rarity: char.rarity,
-                        constellation: char.actived_constellation_num
+                        constellation: char.actived_constellation_num,
+                        emote: ''
                     };
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                    newChar.emote = emotes[newChar.name as any];
                     characters.push(newChar);
                 });
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -71,10 +76,10 @@ router.get('/', async (req, res: any) => {
                 };
                 res.json(db);
                 await res.locals.setex(`${uid}:test`, 1800, JSON.stringify(db));
-                // eslint-disable-next-line @typescript-eslint/no-explicit-any
             } catch (err) {
                 res.json({
-                    message: 'An error occured'
+                    message: 'error',
+                    error: err
                 });
             }
         }
