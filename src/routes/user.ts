@@ -58,7 +58,7 @@ router.get('/', async (req, res: any) => {
                     };
                     explorations.push(newRegion);
                 });
-                const db = {
+                const dbB = {
                     stats: {
                         active_days: player.stats.active_day_number,
                         achievements: player.stats.achievement_number,
@@ -76,7 +76,26 @@ router.get('/', async (req, res: any) => {
                     explorations: explorations,
                     message: 'success'
                 };
-                db['profile'] = await generated(db);
+                const profileG = await generated(dbB);
+                const db = {
+                    stats: {
+                        active_days: player.stats.active_day_number,
+                        achievements: player.stats.achievement_number,
+                        anemoculi: player.stats.anemoculus_number,
+                        geoculi: player.stats.geoculus_number,
+                        total_chests:
+                            player.stats.precious_chest_number +
+                            player.stats.luxurious_chest_number +
+                            player.stats.exquisite_chest_number +
+                            player.stats.common_chest_number,
+                        unlocked_domains: player.stats.domain_number,
+                        spiral_abyss: player.stats.spiral_abyss
+                    },
+                    characters: characters,
+                    explorations: explorations,
+                    message: 'success',
+                    profile: profileG
+                };
                 res.json(db);
                 await res.locals.setex(`${uid}:profile`, 1800, JSON.stringify(db));
             } catch (err) {
