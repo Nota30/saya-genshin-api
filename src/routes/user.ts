@@ -3,7 +3,6 @@ import { GenshinKit, util } from 'genshin-kit';
 import { char_en } from '../utils/character_en';
 import { region_en } from '../utils/region_en';
 import emotes from '../utils/emotes.json';
-import { generated } from '../utils/generateG';
 
 const router = Router();
 const App = new GenshinKit();
@@ -58,25 +57,6 @@ router.get('/', async (req, res: any) => {
                     };
                     explorations.push(newRegion);
                 });
-                const dbB = {
-                    stats: {
-                        active_days: player.stats.active_day_number,
-                        achievements: player.stats.achievement_number,
-                        anemoculi: player.stats.anemoculus_number,
-                        geoculi: player.stats.geoculus_number,
-                        total_chests:
-                            player.stats.precious_chest_number +
-                            player.stats.luxurious_chest_number +
-                            player.stats.exquisite_chest_number +
-                            player.stats.common_chest_number,
-                        unlocked_domains: player.stats.domain_number,
-                        spiral_abyss: player.stats.spiral_abyss
-                    },
-                    characters: characters,
-                    explorations: explorations,
-                    message: 'success'
-                };
-                const profileG = await generated(dbB);
                 const db = {
                     stats: {
                         active_days: player.stats.active_day_number,
@@ -93,8 +73,7 @@ router.get('/', async (req, res: any) => {
                     },
                     characters: characters,
                     explorations: explorations,
-                    message: 'success',
-                    profile: profileG
+                    message: 'success'
                 };
                 res.json(db);
                 await res.locals.setex(`${uid}:profile`, 1800, JSON.stringify(db));
