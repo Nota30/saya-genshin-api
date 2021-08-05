@@ -15,7 +15,7 @@ router.get('/', async (req, res: any) => {
     const uid = req.query.id;
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    await res.locals.get(`${uid}:test`, async (err: any, data: any) => {
+    await res.locals.get(`${uid}:profile`, async (err: any, data: any) => {
         if (err) throw err;
         if (data) {
             const cachedb = JSON.parse(data);
@@ -78,7 +78,7 @@ router.get('/', async (req, res: any) => {
                 };
                 db['profile'] = await generated(db);
                 res.json(db);
-                await res.locals.setex(`${uid}:test`, 1800, JSON.stringify(db));
+                await res.locals.setex(`${uid}:profile`, 1800, JSON.stringify(db));
             } catch (err) {
                 res.json({
                     message: 'error',
