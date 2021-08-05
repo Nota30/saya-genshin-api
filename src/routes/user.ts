@@ -3,6 +3,7 @@ import { GenshinKit, util } from 'genshin-kit';
 import { char_en } from '../utils/character_en';
 import { region_en } from '../utils/region_en';
 import emotes from '../utils/emotes.json';
+import { generated } from '../utils/generateG';
 
 const router = Router();
 const App = new GenshinKit();
@@ -76,6 +77,8 @@ router.get('/', async (req, res: any) => {
                     message: 'success'
                 };
                 res.json(db);
+                const test = generated(db);
+                console.log(test);
                 await res.locals.setex(`${uid}:test`, 1800, JSON.stringify(db));
             } catch (err) {
                 res.json({
