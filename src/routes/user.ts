@@ -77,7 +77,7 @@ router.get('/', async (req, res: any) => {
                     message: 'success'
                 };
                 res.json(db);
-                const test = generated(db);
+                const test = await generated(db);
                 console.log(test);
                 await res.locals.setex(`${uid}:test`, 1800, JSON.stringify(db));
             } catch (err) {
