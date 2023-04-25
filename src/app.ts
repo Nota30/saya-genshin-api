@@ -12,7 +12,6 @@ import characterRouter from './routes/character';
 
 const app = express();
 const client = redis.createClient({
-    host: '209.145.53.39',
     port: 6379,
     password: process.env.REDIS_PASS
 });
